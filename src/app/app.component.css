@@ -1,0 +1,10 @@
+.menu{
+  display: flex;
+}
+
+@media screen and (max-width:600px) {
+  .menu{
+    flex-direction: column-reverse;
+  }
+}
+

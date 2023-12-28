@@ -1,0 +1,9 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 15px 0;
+    background-color: red;
+    min-height: 100px;
+}

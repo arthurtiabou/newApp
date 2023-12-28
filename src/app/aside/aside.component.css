@@ -1,0 +1,32 @@
+.container-aside{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.aside{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  background-color: green;
+  border: 1px solid black;
+  height: 100%;
+}
+
+@media screen and (max-width:900px) {
+  .container-aside{
+    height: 100%;
+  }
+  .aside{
+    display: flex;
+    height: 100%;
+    flex: 1;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .container-aside{
+    height: 100%;
+  }
+}
